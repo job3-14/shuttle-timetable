@@ -7,27 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC4043DB283540620066F5C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4043DA283540620066F5C4 /* AppDelegate.swift */; };
-		CC4043DD283540620066F5C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4043DC283540620066F5C4 /* SceneDelegate.swift */; };
-		CC4043DF283540620066F5C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4043DE283540620066F5C4 /* ViewController.swift */; };
-		CC4043E2283540620066F5C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4043E0283540620066F5C4 /* Main.storyboard */; };
-		CC4043E4283540640066F5C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4043E3283540640066F5C4 /* Assets.xcassets */; };
-		CC4043E7283540640066F5C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4043E5283540640066F5C4 /* LaunchScreen.storyboard */; };
+		CC53563A283545BE0031E89C /* shuttle_timetableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC535639283545BE0031E89C /* shuttle_timetableApp.swift */; };
+		CC53563C283545BE0031E89C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC53563B283545BE0031E89C /* ContentView.swift */; };
+		CC53563E283545C00031E89C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC53563D283545C00031E89C /* Assets.xcassets */; };
+		CC535641283545C00031E89C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC535640283545C00031E89C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC4043D7283540620066F5C4 /* shuttle-timetable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shuttle-timetable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC4043DA283540620066F5C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC4043DC283540620066F5C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC4043DE283540620066F5C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CC4043E1283540620066F5C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CC4043E3283540640066F5C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CC4043E6283540640066F5C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CC4043E8283540640066F5C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC535636283545BE0031E89C /* shuttle-timetable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shuttle-timetable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC535639283545BE0031E89C /* shuttle_timetableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shuttle_timetableApp.swift; sourceTree = "<group>"; };
+		CC53563B283545BE0031E89C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC53563D283545C00031E89C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC535640283545C00031E89C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CC4043D4283540620066F5C4 /* Frameworks */ = {
+		CC535633283545BE0031E89C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,46 +32,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CC4043CE283540620066F5C4 = {
+		CC53562D283545BE0031E89C = {
 			isa = PBXGroup;
 			children = (
-				CC4043D9283540620066F5C4 /* shuttle-timetable */,
-				CC4043D8283540620066F5C4 /* Products */,
+				CC535638283545BE0031E89C /* shuttle-timetable */,
+				CC535637283545BE0031E89C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CC4043D8283540620066F5C4 /* Products */ = {
+		CC535637283545BE0031E89C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC4043D7283540620066F5C4 /* shuttle-timetable.app */,
+				CC535636283545BE0031E89C /* shuttle-timetable.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CC4043D9283540620066F5C4 /* shuttle-timetable */ = {
+		CC535638283545BE0031E89C /* shuttle-timetable */ = {
 			isa = PBXGroup;
 			children = (
-				CC4043DA283540620066F5C4 /* AppDelegate.swift */,
-				CC4043DC283540620066F5C4 /* SceneDelegate.swift */,
-				CC4043DE283540620066F5C4 /* ViewController.swift */,
-				CC4043E0283540620066F5C4 /* Main.storyboard */,
-				CC4043E3283540640066F5C4 /* Assets.xcassets */,
-				CC4043E5283540640066F5C4 /* LaunchScreen.storyboard */,
-				CC4043E8283540640066F5C4 /* Info.plist */,
+				CC535639283545BE0031E89C /* shuttle_timetableApp.swift */,
+				CC53563B283545BE0031E89C /* ContentView.swift */,
+				CC53563D283545C00031E89C /* Assets.xcassets */,
+				CC53563F283545C00031E89C /* Preview Content */,
 			);
 			path = "shuttle-timetable";
+			sourceTree = "<group>";
+		};
+		CC53563F283545C00031E89C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC535640283545C00031E89C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC4043D6283540620066F5C4 /* shuttle-timetable */ = {
+		CC535635283545BE0031E89C /* shuttle-timetable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC4043EB283540640066F5C4 /* Build configuration list for PBXNativeTarget "shuttle-timetable" */;
+			buildConfigurationList = CC535644283545C00031E89C /* Build configuration list for PBXNativeTarget "shuttle-timetable" */;
 			buildPhases = (
-				CC4043D3283540620066F5C4 /* Sources */,
-				CC4043D4283540620066F5C4 /* Frameworks */,
-				CC4043D5283540620066F5C4 /* Resources */,
+				CC535632283545BE0031E89C /* Sources */,
+				CC535633283545BE0031E89C /* Frameworks */,
+				CC535634283545BE0031E89C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = "shuttle-timetable";
 			productName = "shuttle-timetable";
-			productReference = CC4043D7283540620066F5C4 /* shuttle-timetable.app */;
+			productReference = CC535636283545BE0031E89C /* shuttle-timetable.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CC4043CF283540620066F5C4 /* Project object */ = {
+		CC53562E283545BE0031E89C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					CC4043D6283540620066F5C4 = {
+					CC535635283545BE0031E89C = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
-			buildConfigurationList = CC4043D2283540620066F5C4 /* Build configuration list for PBXProject "shuttle-timetable" */;
+			buildConfigurationList = CC535631283545BE0031E89C /* Build configuration list for PBXProject "shuttle-timetable" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,63 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = CC4043CE283540620066F5C4;
-			productRefGroup = CC4043D8283540620066F5C4 /* Products */;
+			mainGroup = CC53562D283545BE0031E89C;
+			productRefGroup = CC535637283545BE0031E89C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC4043D6283540620066F5C4 /* shuttle-timetable */,
+				CC535635283545BE0031E89C /* shuttle-timetable */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CC4043D5283540620066F5C4 /* Resources */ = {
+		CC535634283545BE0031E89C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC4043E7283540640066F5C4 /* LaunchScreen.storyboard in Resources */,
-				CC4043E4283540640066F5C4 /* Assets.xcassets in Resources */,
-				CC4043E2283540620066F5C4 /* Main.storyboard in Resources */,
+				CC535641283545C00031E89C /* Preview Assets.xcassets in Resources */,
+				CC53563E283545C00031E89C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CC4043D3283540620066F5C4 /* Sources */ = {
+		CC535632283545BE0031E89C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC4043DF283540620066F5C4 /* ViewController.swift in Sources */,
-				CC4043DB283540620066F5C4 /* AppDelegate.swift in Sources */,
-				CC4043DD283540620066F5C4 /* SceneDelegate.swift in Sources */,
+				CC53563C283545BE0031E89C /* ContentView.swift in Sources */,
+				CC53563A283545BE0031E89C /* shuttle_timetableApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		CC4043E0283540620066F5C4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC4043E1283540620066F5C4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CC4043E5283540640066F5C4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC4043E6283540640066F5C4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		CC4043E9283540640066F5C4 /* Debug */ = {
+		CC535642283545C00031E89C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		CC4043EA283540640066F5C4 /* Release */ = {
+		CC535643283545C00031E89C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,19 +259,20 @@
 			};
 			name = Release;
 		};
-		CC4043EC283540640066F5C4 /* Debug */ = {
+		CC535645283545C00031E89C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"shuttle-timetable/Preview Content\"";
 				DEVELOPMENT_TEAM = X8T556MT86;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "shuttle-timetable/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,19 +288,20 @@
 			};
 			name = Debug;
 		};
-		CC4043ED283540640066F5C4 /* Release */ = {
+		CC535646283545C00031E89C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"shuttle-timetable/Preview Content\"";
 				DEVELOPMENT_TEAM = X8T556MT86;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "shuttle-timetable/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC4043D2283540620066F5C4 /* Build configuration list for PBXProject "shuttle-timetable" */ = {
+		CC535631283545BE0031E89C /* Build configuration list for PBXProject "shuttle-timetable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC4043E9283540640066F5C4 /* Debug */,
-				CC4043EA283540640066F5C4 /* Release */,
+				CC535642283545C00031E89C /* Debug */,
+				CC535643283545C00031E89C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC4043EB283540640066F5C4 /* Build configuration list for PBXNativeTarget "shuttle-timetable" */ = {
+		CC535644283545C00031E89C /* Build configuration list for PBXNativeTarget "shuttle-timetable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC4043EC283540640066F5C4 /* Debug */,
-				CC4043ED283540640066F5C4 /* Release */,
+				CC535645283545C00031E89C /* Debug */,
+				CC535646283545C00031E89C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CC4043CF283540620066F5C4 /* Project object */;
+	rootObject = CC53562E283545BE0031E89C /* Project object */;
 }
