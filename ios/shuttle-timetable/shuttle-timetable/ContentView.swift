@@ -26,7 +26,21 @@ struct ContentView: View {
 
 struct TabHome: View {
     var body: some View {
-        Text("MakingHomePage...")
+        VStack{
+            Text("Home")
+            Text("上賀茂シャトル時刻")
+            List {
+                Text("先発")
+                Text("次発")
+            }
+            Text("二軒茶屋シャトル時刻")
+            List {
+                Text("先発")
+                Text("次発")
+            }
+           
+            
+        }
     }
 }
 struct TabSetting: View {
