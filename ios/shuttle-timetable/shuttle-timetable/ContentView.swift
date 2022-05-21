@@ -15,6 +15,13 @@ struct ContentView: View {
                     Image(systemName: "house.fill")
                     Text("Home")
                 }
+            
+            TabSerach()
+                .tabItem {
+                    Image(systemName: "magnifyingglass.circle.fill")
+                    Text("Serach")
+                }
+            
             TabSetting()
                 .tabItem {
                     Image(systemName: "gear.circle.fill")
@@ -27,7 +34,6 @@ struct ContentView: View {
 struct TabHome: View {
     var body: some View {
         VStack{
-            Text("Home")
             Text("上賀茂シャトル時刻")
             List {
                 Text("先発")
@@ -43,9 +49,16 @@ struct TabHome: View {
         }
     }
 }
+
 struct TabSetting: View {
     var body: some View {
         Text("Setting")
+    }
+}
+
+struct TabSerach: View {
+    var body: some View {
+        Text("Serach")
     }
 }
 struct ContentView_Previews: PreviewProvider {
