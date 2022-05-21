@@ -38,13 +38,7 @@ struct TabHome: View {
             List {
                 Text("先発")
                 Text("次発")
-            }
-            Text("二軒茶屋シャトル時刻")
-            List {
-                Text("先発")
-                Text("次発")
-            }
-           
+            }           
             
         }
     }
